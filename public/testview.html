@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Test Viewer</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.3/socket.io.js"
+      integrity="sha512-PU5S6BA03fRv1Q5fpwXjg5nlRrgdoguZ74urFInkbABMCENyx5oP3hrDzYMMPh3qdLdknIvrGj3yqZ4JuU7Nag=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+  </head>
+
+  <body>
+    <div class="app">
+      <div class="chat_app">
+        <div id="sidebar" class="left_sidebar">
+          <div class="logo_text">
+            <span>Test <span class="colored">View</span></span>
+          </div>
+        </div>
+
+        <div class="chat_area">
+          <div class="chat_bg">
+            <pre id="view_json" class="chat"></pre>
+          </div>
+        </div>
+
+        <div class="right_sidebar">
+          <span class="room_label">Rooms</span>
+          <div id="active_rooms_list" class="active_rooms_list"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

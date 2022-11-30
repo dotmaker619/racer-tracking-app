@@ -1,0 +1,86 @@
+{
+    "version" : "1.0.0",
+    "documentType" : "com.gyfx.LapMonitor.raceJsonData",
+    "deviceName" : "iPhone de Franck",
+    "races" : [
+      {
+        "extraTime" : 60,
+        "date" : "2022-11-12T10:30:58+01:00",
+        "name" : "A main 2wd",
+        "kind" : "race",
+        "uuid" : "DE1ADA82-63A5-4F5C-8932-014A6BF35218",
+        "minLapTime" : 2,
+        "drivers" : [
+          {
+            "transponderId" : 20,
+            "name" : "John",
+            "laps" : [
+              {
+                "duration" : 0,
+                "kind" : "initial",
+                "endTimestamp" : 416,
+                "userIndex" : 0
+              },
+              {
+                "kind" : "normal",
+                "endTimestamp" : 1081,
+                "duration" : 665,
+                "userIndex" : 1
+              },
+              {
+                "endTimestamp" : 1562,
+                "kind" : "normal",
+                "userIndex" : 2,
+                "duration" : 481
+              }
+            ],
+            "driverUuid" : "AC6894EB-3C35-4907-9D5A-DFF2E37C2F45",
+            "kind" : "driver"
+          },
+          {
+            "transponderId" : 19,
+            "driverUuid" : "2879B0F2-383E-41D9-9728-13A439D58405",
+            "kind" : "driver",
+            "name" : "Davide",
+            "laps" : [
+              {
+                "endTimestamp" : 281,
+                "kind" : "initial",
+                "duration" : 0,
+                "userIndex" : 0
+              },
+              {
+                "endTimestamp" : 910,
+                "userIndex" : 1,
+                "duration" : 629,
+                "kind" : "normal"
+              }
+            ]
+          },
+          {
+            "kind" : "driver",
+            "laps" : [
+              {
+                "endTimestamp" : 552,
+                "duration" : 0,
+                "kind" : "initial",
+                "userIndex" : 0
+              },
+              {
+                "userIndex" : 1,
+                "duration" : 737,
+                "kind" : "normal",
+                "endTimestamp" : 1289
+              }
+            ],
+            "driverUuid" : "725E4DBC-7347-4D68-929A-77FD7217ECB4",
+            "name" : "Paul",
+            "transponderId" : 22
+          }
+        ],
+        "info" : "Bleu",
+        "duration" : 180
+      }
+    ],
+    "deviceUuid" : "E1F2B514-A7E7-44E1-A5D6-59D067E7DF44"
+  }
